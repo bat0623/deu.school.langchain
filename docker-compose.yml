@@ -1,0 +1,43 @@
+version: "3.2"
+services:
+  elk-e:
+    container_name: deu-elk-e
+    build:
+      context: images/search/
+      args:
+        ELK_VERSION: $ELK_VERSION
+    volumes:
+      - ./images/search/elasticsearch.yml:/usr/share/elasticsearch/config/elasticsearch.yml
+      - deu-elasticsearch:/usr/share/elasticsearch/data
+    ports:
+      - "9200:9200"
+      - "9300:9300"
+    environment:
+      ES_JAVA_OPTS: "-Xmx512m -Xms512m"
+      ELASTIC_PASSWORD: deu1234
+      discovery.type: single-node
+    networks:
+      - deu-elk
+
+  elk-k:
+    container_name: deu-elk-k
+    build:
+      context: images/kibana/
+      args:
+        ELK_VERSION: $ELK_VERSION
+    volumes:
+      - ./images/kibana/kibana.yml:/usr/share/kibana/config/kibana.yml
+    environment:
+      ELASTICSEARCH_USERNAME: elastic
+      ELASTICSEARCH_PASSWORD: deu1234
+    ports:
+      - "5601:5601"
+    networks:
+      - deu-elk
+    depends_on:
+      - elk-e
+networks:
+  deu-elk:
+    driver: bridge
+volumes:
+  deu-elasticsearch:
