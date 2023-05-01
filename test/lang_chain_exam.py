@@ -12,7 +12,6 @@ from langchain.embeddings.openai import OpenAIEmbeddings
 from langchain.document_loaders import UnstructuredMarkdownLoader
 from langchain.chains import ConversationalRetrievalChain
 from langchain.chains.qa_with_sources import load_qa_with_sources_chain
-from langchain.chains.conversational_retrieval.prompts import CONDENSE_QUESTION_PROMPT
 
 path = os.path.dirname(os.path.abspath(__file__))
 SCR_PATH = os.path.abspath(__file__)
