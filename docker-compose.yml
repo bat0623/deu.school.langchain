@@ -36,8 +36,25 @@ services:
       - deu-elk
     depends_on:
       - elk-e
+  mongo_db:
+    image: mongo:6.0.2
+    container_name: deu-mongo_db
+    restart: always
+    ports:
+      - "27017:27017"
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=root
+      - MONGO_INITDB_ROOT_PASSWORD=deu1234
+      - MONGO_INITDB_DATABASE=deu
+    volumes:
+      - mongo_db:/data/db
+    networks:
+      - host
 networks:
   deu-elk:
     driver: bridge
+  host:
+    driver: bridge
 volumes:
+  deu-mongo_db:
   deu-elasticsearch:
