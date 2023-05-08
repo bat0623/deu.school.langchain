@@ -1,5 +1,5 @@
 파일명,설명
-notice.csv,공지사항
-introduce.csv,학과소개
-professors.csv,교수목록
-location.csv,학교건물(위치)
+notice.csv,"공지사항,학사공지"
+introduce.csv,"학과소개"
+professors.csv,"교수목록"
+location.csv,"학교건물,건물위치,편의시설"
