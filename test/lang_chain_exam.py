@@ -6,17 +6,15 @@ import time
 import itertools
 from glob import glob
 from typing import List
-from langchain.agents import load_tools
-from langchain.schema import Document
 from langchain import OpenAI
 from dotenv import load_dotenv
 from langchain import PromptTemplate
-from langchain.chains import LLMChain
+from langchain.schema import Document
+from langchain.agents import load_tools
 from langchain.vectorstores import FAISS
+from langchain.agents import create_csv_agent
 from langchain.document_loaders import CSVLoader
-from langchain.agents import create_csv_agent, initialize_agent
 from langchain.embeddings.openai import OpenAIEmbeddings
-from langchain.chains.qa_with_sources import load_qa_with_sources_chain
 
 path = os.path.dirname(os.path.abspath(__file__))
 SCR_PATH = os.path.abspath(__file__)
