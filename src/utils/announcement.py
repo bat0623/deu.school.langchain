@@ -3,7 +3,10 @@ import pandas as pd
 from bs4 import BeautifulSoup
 
 i=1
-Data=[]
+num_data=[]
+title_data=[]
+link_data=[]
+day_data=[]
 
 while(1):
     url = 'https://www.deu.ac.kr/www/board/3/'
@@ -22,7 +25,11 @@ while(1):
             link="https://www.deu.ac.kr"+href.attrs['href']
             day=soup.select_one("#tablelist > tbody > tr:nth-child(%s) > td:nth-child(4)"%str(k))
             
-            Data.append(num.get_text()+","+title.get_text()+","+link+","+day.get_text())
+            num_data.append(num.get_text())
+            title_data.append(title.get_text())
+            link_data.append(link)
+            day_data.append(day.get_text())
+            
 
             if (num.get_text()!="1"):
                 print(num.get_text()+","+title.get_text()+","+link+","+day.get_text())
@@ -37,8 +44,8 @@ while(1):
     if(num.get_text()=="1"):
         break
 
-
+Data={"순번":num_data,"공지":title_data,"링크":link_data,"작성일":day_data}
 df = pd.DataFrame(Data)
-df.columns=['번호,공지사항,링크,작성일']
-df.to_csv('공지사항.csv', index=False)
+
+df.to_csv('notice.csv', index=False)
 
