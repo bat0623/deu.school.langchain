@@ -26,5 +26,5 @@ npt = np.array(tary)
 npt = npt.reshape(-1, 13) #추출한 데이터를 형식에 맞게 넘파이 배열로 함
 f.close()
 
-np.savetxt('C:/Users/TWCOM/Desktop/edited.csv', npt, fmt = '%s', delimiter = ',', newline = '\n', header = '과목코드, 과목명, 교수, 강의시간, 강의실, 구분, 학년, 학점, 강의평점, 담은 인원, 정원, 수강대상, 비고') #csv파일로 저장
+np.savetxt('classSchedule.csv', npt, fmt = '%s', delimiter = ',', newline = '\n', header = '과목코드, 과목명, 교수, 강의시간, 강의실, 구분, 학년, 학점, 강의평점, 담은 인원, 정원, 수강대상, 비고') #csv파일로 저장
 #이후 수기로 일부 수정을 거침
