@@ -1,7 +1,6 @@
 파일명,설명
 notice.csv,"공지사항,학사공지"
 introduce.csv,"학과소개"
-professors.csv,"교수목록"
-location.csv,"학교건물,건물위치"
+campusFloor.csv,"학교건물,건물위치,대학본관"
 place.csv,"ATM,편의점,기숙사"
-classSchedule.csv,"시간표"
+lectureSchedule.csv,"시간표,강의,강의평점,score"
