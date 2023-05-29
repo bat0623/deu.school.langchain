@@ -13,7 +13,7 @@ writer = csv.writer(f)
 res = requests.get(url)
 
 # BeautifulSoup으로 HTML 파싱
-soup = BeautifulSoup(res.text, "html.parser")
+soup = BeautifulSoup(res.text, "lxml")
 
 # 시설별 위치 정보 테이블 찾기
 table = soup.find("table", attrs={"class": "table table-line text-center"})

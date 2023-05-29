@@ -22,8 +22,9 @@ def case_1_parse(rows, url):
         교수이름 = row.find("h4").text.replace("교수", "").strip()
         obj = {"교수이름": 교수이름}
         for x in row.find_all("li"):
-            print(x)
+            title = x.find("span")
             x = str(x.text.strip())
+            x = x.replace(title, "")
             if x.find("학위") != -1:
                 obj["전공"] = x.replace("학위", "")
             else:
