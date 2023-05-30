@@ -11,6 +11,14 @@
 pip install -r requirements.txt
 ```
 
+## 실행
+
+```bash
+echo "OPENAI_API_KEY=sk-" > .env
+python main.py
+streamlit run ./src/chat_ui.py
+```
+
 ## 프롬프트 구성
 
 ```txt
@@ -24,8 +32,11 @@ pip install -r requirements.txt
 - 컴공 교수님 소개 페이지 알려줘
 - 소프트웨어공학과 교수님 소개 페이지 알려줘
 - 컴공에는 어떤 교수님이 있어?
+- 강의평점이 4 이상인 강의를 알려주고 그 안에서 교수님 목록을 알려줘. 강의평점 상위 10명만
+- 강의평점 상위 10위 안에 교수들의 교수님과 강의평점을 알려줘
+- 강의평점 상위 10위 안에 교수들의 교수님과 강의명과 강의평점을 csv 형태로 알려줘
+- 
 
 ## 참고 자료
 
 - [프롬프트란?](https://tech.kakaoenterprise.com/188)
-- []
