@@ -3,7 +3,7 @@ import requests
 
 
 def langchain_chat(query: str):
-    url = "http://localhost:8081/chat"
+    url = "https://gpt.bokji24.com/chat"
     payload = {"query": query}
     response = requests.post(url, json=payload)
     if response.status_code == 200:

@@ -3,6 +3,7 @@ import os
 import re
 import csv
 import requests
+from tqdm import tqdm
 from pprint import pprint
 from datetime import datetime
 from bs4 import BeautifulSoup
@@ -17,45 +18,60 @@ with open(f"{current_path}/../../static/introduce.csv", "r") as f:
 
 
 def case_1_parse(rows, url):
-    tmp = []
+    result = []
     for row in rows:
         교수이름 = row.find("h4").text.replace("교수", "").strip()
-        obj = {"교수이름": 교수이름}
+        obj = {"교수이름": 교수이름, "전화번호": None, "연구실": None, "전공": None, "이메일": None}
         for x in row.find_all("li"):
-            title = x.find("span")
+            title = str(x.find("span"))
             x = str(x.text.strip())
-            x = x.replace(title, "")
-            if x.find("학위") != -1:
+            if title.find("학위") != -1:
                 obj["전공"] = x.replace("학위", "")
-            else:
-                obj["전공"] = ""
-            if x.find("연구실") != -1:
+            if title.find("연구실") != -1:
                 obj["연구실"] = x.replace("연구실", "")
-            else:
-                obj["연구실"] = ""
-            if x.find("전화번호") != -1:
+            if title.find("전화번호") != -1:
                 obj["전화번호"] = tel_pattern.findall(x)[0]
-            else:
-                obj["전화번호"] = ""
-            if x.find("E-mail") != -1:
+            if title.find("E-mail") != -1:
                 obj["이메일"] = x.replace("E-mail", "")
-            else:
-                obj["이메일"] = ""
         obj["출처"] = url
-        # obj["수정일자"] = str(now)
-        tmp.append(obj)
-    return tmp
+        obj["수정일자"] = str(now)
+        result.append(obj)
+    return result
 
 
-def case_2_parse(rows):
-    tmp = []
+def case_2_parse(rows, url):
+    result = []
     for row in rows:
-        print(row)
+        obj = {
+            "교수이름": row.find("p").text.strip(),
+            "전화번호": None,
+            "연구실": None,
+            "전공": row.find("dt").find("span").text.strip(),
+            "이메일": None,
+        }
+        for x in row.find_all("li"):
+            title = str(x.find("span"))
+            x = str(x.text.strip())
+            if title.find("학위") != -1:
+                obj["전공"] = x.replace("학위", "").strip()
+            if title.find("연구실") != -1:
+                obj["연구실"] = x.replace("연구실", "").strip()
+            if title.find("연락처") != -1:
+                if len(tel_pattern.findall(x)) > 0:
+                    obj["전화번호"] = tel_pattern.findall(x)[0].strip()
+                else:
+                    obj["전화번호"] = x
+            if title.find("E-MAIL") != -1:
+                obj["이메일"] = x.replace("E-MAIL", "").strip()
+        obj["출처"] = url
+        obj["수정일자"] = str(now)
+        result.append(obj)
+    return result
 
 
 result = []
 
-for row in rows[:5]:
+for row in tqdm(rows):
     url = row["출처"]
     res = requests.get(url)
     res.encoding = "utf-8"  # 간혹, 인코딩이 꺠지는 페이지 대비하여 인코딩 고정
@@ -65,10 +81,11 @@ for row in rows[:5]:
         teachList = soup.find_all("div", {"class": "professor-item"})[:-1]
         if teachList != None and len(teachList) > 0:
             result.extend(case_1_parse(teachList, url))
-        else:
-            print("ERROR", url)
     else:
         teachList = teachList.find_all("div", {"class": "box"})
-        # result.extend(case_2_parse(teachList, url))
+        result.extend(case_2_parse(teachList, url))
 
-# pprint(result)
+with open(f"{current_path}/../../static/professors.csv", "w", newline="", encoding="utf-8") as f:
+    writer = csv.DictWriter(f, fieldnames=result[0].keys())
+    writer.writeheader()
+    writer.writerows(result)
