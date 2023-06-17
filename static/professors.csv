@@ -1,4 +1,314 @@
-교수이름,학과,전공,전화번호,출처,수정일자
-김진덕,컴퓨터공학과,데이터베이스,051-123-1234,https://teacher.deu.ac.kr/teacher,"2023-04-30 08:56:53.844232"
-장성진,컴퓨터공학과,소프트웨어,051-123-1234,https://teacher.deu.ac.kr/teacher,"2023-04-30 08:56:53.844232"
-장시웅,컴퓨터공학과,컴퓨터비전,051-123-1234,https://teacher.deu.ac.kr/teacher,"2023-04-30 08:56:53.844232"
+교수이름,전화번호,연구실,전공,이메일,출처,수정일자
+정주영,051-890-2543,제2인문대 417호,교육학박사(Ph.D.),,https://teacher.deu.ac.kr/teacher/content/3,2023-06-17 22:38:14.940694
+이영학,051-890-2569,본관 603호,교육학박사(Ph.D.),,https://teacher.deu.ac.kr/teacher/content/3,2023-06-17 22:38:14.940694
+천정미,051-890-2561,제2인문대 517호,교육학박사(Ph.D.),,https://teacher.deu.ac.kr/teacher/content/3,2023-06-17 22:38:14.940694
+이철우,051-890-2174,2인문대 307호,현대희곡,woo7711@deu.ac.kr,https://koreanl.deu.ac.kr/koreanl/sub02_02.do,2023-06-17 22:38:14.940694
+하상일,051-890-2175,2인문대 215호,문학비평,newpoem21@deu.ac.kr,https://koreanl.deu.ac.kr/koreanl/sub02_02.do,2023-06-17 22:38:14.940694
+이호규,051-890-1221,2인문대 201호,현대소설,lhg@deu.ac.kr,https://koreanl.deu.ac.kr/koreanl/sub02_02.do,2023-06-17 22:38:14.940694
+정준식,051-890-1211,2인문대 214호,고전산문,jjs@deu.ac.kr,https://koreanl.deu.ac.kr/koreanl/sub02_02.do,2023-06-17 22:38:14.940694
+전동균,051-890-2177,2인문대 220호,시창작 / 미디어 실용문학,dong@deu.ac.kr,https://koreanl.deu.ac.kr/koreanl/sub02_02.do,2023-06-17 22:38:14.940694
+윤지영,051-890-1212,2인문대 202호,현대시,windnamu@deu.ac.kr,https://koreanl.deu.ac.kr/koreanl/sub02_02.do,2023-06-17 22:38:14.940694
+임창건,051-890-1229,제 2 인문대 416호,19세기 미국소설,cgim@deu.ac.kr,http://english.deu.ac.kr/english/sub02.do,2023-06-17 22:38:14.940694
+오인용,051-890-1228,제 2 인문대 323호,19세기 영국시,iyoh@deu.ac.kr,http://english.deu.ac.kr/english/sub02.do,2023-06-17 22:38:14.940694
+송경숙,051-890-1231,제 2 인문대 420호,화용론·사회응용언어학,ksong@deu.ac.kr,http://english.deu.ac.kr/english/sub02.do,2023-06-17 22:38:14.940694
+유지헌,051-890-1227,제 2 인문대 322호,포스트모던문학 | 영미문화연구,jihunyoo@deu.ac.kr,http://english.deu.ac.kr/english/sub02.do,2023-06-17 22:38:14.940694
+이송은 | 학과장,051-890-1230,제 2 인문대 304호,영어교육(2언어/영어 쓰기),selee@deu.ac.kr,http://english.deu.ac.kr/english/sub02.do,2023-06-17 22:38:14.940694
+브리트니 크로슬리 (Brittney Crossley),051-890-1235,제2인문관 321호,국제외교 | 영어회화 및 작문,bcrossley@deu.ac.kr,http://english.deu.ac.kr/english/sub02.do,2023-06-17 22:38:14.940694
+윤유라ㅣ학과장,051-890-1308,제1인문관 412호,"문헌정보학 / 도서관경영, 독서서비스",yryoun@deu.ac.kr,https://lis.deu.ac.kr/lis/sub02_01.do,2023-06-17 22:38:14.940694
+최연주,051-890-1278,제1인문관 609호,"한국중세사 / 서지학(대장경), 정보기록문화사",yjchoi@deu.ac.kr,https://lis.deu.ac.kr/lis/sub02_01.do,2023-06-17 22:38:14.940694
+정영미,051-890-1307,제1인문관 409호,"문헌정보학 / 정보검색, 디지털도서관 등",yomjung@deu.ac.kr,https://lis.deu.ac.kr/lis/sub02_01.do,2023-06-17 22:38:14.940694
+이은주,051-890-1306,제1인문관 411호,"문헌정보학 / 정보조직, 정보서비스",ejulee@deu.ac.kr,https://lis.deu.ac.kr/lis/sub02_01.do,2023-06-17 22:38:14.940694
+신영지,051-890-1309,제1인문관 413호,"문헌정보학 / 정보학, 데이터 분석",yjishin@deu.ac.kr,https://lis.deu.ac.kr/lis/sub02_01.do,2023-06-17 22:38:14.940694
+신인수,051-890-1292,-,문헌정보학 / 정보조직,insu.shin@gmail.com,https://lis.deu.ac.kr/lis/sub02_01.do,2023-06-17 22:38:14.940694
+이경민,051-890-2661,제 2인문관 514호,유아교육,Kminlee@deu.ac.kr,https://ece.deu.ac.kr/ece/sub02.do,2023-06-17 22:38:14.940694
+전윤숙,051-890-2662,제 2인문관 501호,유아교육,ysjun@deu.ac.kr,https://ece.deu.ac.kr/ece/sub02.do,2023-06-17 22:38:14.940694
+손유진,051-890-2663,제 2인문관 503호,유아교육,yjshon@deu.ac.kr,https://ece.deu.ac.kr/ece/sub02.do,2023-06-17 22:38:14.940694
+서보순,051-890-2866,제 2인문관 513호,유아교육,14129@deu.ac.kr,https://ece.deu.ac.kr/ece/sub02.do,2023-06-17 22:38:14.940694
+김성현,051-890-2664,제 2인문관 518호,유아교육,sseng@deu.ac.kr,https://ece.deu.ac.kr/ece/sub02.do,2023-06-17 22:38:14.940694
+황미숙,연락처 -,-,,hansinjin@naver.com,https://ece.deu.ac.kr/ece/sub02.do,2023-06-17 22:38:14.940694
+정현주,연락처 -,-,,jvip9552@naver.com,https://ece.deu.ac.kr/ece/sub02.do,2023-06-17 22:38:14.940694
+류상일,051-890-4291,법정관 212호,소방행정학,samuel@deu.ac.kr,https://fire.deu.ac.kr/fire/sub02.do,2023-06-17 22:38:14.940694
+이달별,051-890-4293,법정관 409호,도시방재,moon@deu.ac.kr,https://fire.deu.ac.kr/fire/sub02.do,2023-06-17 22:38:14.940694
+김윤희,051-890-4294,법정관 414호,재난관리,younhkim@deu.ac.kr,https://fire.deu.ac.kr/fire/sub02.do,2023-06-17 22:38:14.940694
+이재영,051-890-4297,법정관 309호,건축학(화재안전공학),lee_jy@deu.ac.kr,https://fire.deu.ac.kr/fire/sub02.do,2023-06-17 22:38:14.940694
+엄영호,051-890-4296,법정관 512호,소방행정학,yhe@deu.ac.kr,https://fire.deu.ac.kr/fire/sub02.do,2023-06-17 22:38:14.940694
+변수남,010-4697-7974,법정관 303호,소방행정학,bsn3959@naver.com,https://fire.deu.ac.kr/fire/sub02.do,2023-06-17 22:38:14.940694
+정치근,010-2862-0019,법정관 303호,소방행정학,jcg119@naver.com,https://fire.deu.ac.kr/fire/sub02.do,2023-06-17 22:38:14.940694
+학과사무실,051-890-4290,법정관(2번건물) 303호,소방방재행정학과,15302@deu.ac.kr,https://fire.deu.ac.kr/fire/sub02.do,2023-06-17 22:38:14.940694
+박기용,051-890-2095,국제관721호,"상경학, 경영학박사",11832@deu.ac.kr,https://faculty.deu.ac.kr/eatingout/sub02.do,2023-06-17 22:38:14.940694
+조용범,051-890-2096,국제관 612호,"식품공학, 공학박사",12104@deu.ac.kr,https://faculty.deu.ac.kr/eatingout/sub02.do,2023-06-17 22:38:14.940694
+김영훈,051-890-2097,국제관 616호,"상경학, 관광학박사",12498@deu.ac.kr,https://faculty.deu.ac.kr/eatingout/sub02.do,2023-06-17 22:38:14.940694
+배금광,051-890-2098,국제관 619호,"상경학, 외식경영학박사",14116@deu.ac.kr,https://faculty.deu.ac.kr/eatingout/sub02.do,2023-06-17 22:38:14.940694
+정향미,051-890-1559,창의관 623호,아동간호학,hmjung@deu.ac.kr,https://nursing.deu.ac.kr/nursing/sub01_09.do,2023-06-17 22:38:14.940694
+김남희,051-890-1564,창의관 621호,지역사회간호학,namheek@deu.ac.kr,https://nursing.deu.ac.kr/nursing/sub01_09.do,2023-06-17 22:38:14.940694
+김명자,051-890-1558,창의관 620-2호,간호관리학,deukmj@deu.ac.kr,https://nursing.deu.ac.kr/nursing/sub01_09.do,2023-06-17 22:38:14.940694
+김묘성,051-890-2862,창의관 324호,기본간호학,myosg@deu.ac.kr,https://nursing.deu.ac.kr/nursing/sub01_09.do,2023-06-17 22:38:14.940694
+이은숙,051-890-1561,창의관 622호,모성간호학,amapola@deu.ac.kr,https://nursing.deu.ac.kr/nursing/sub01_09.do,2023-06-17 22:38:14.940694
+이연희,051-890-1563,창의관 722호,성인간호학,vandi@deu.ac.kr,https://nursing.deu.ac.kr/nursing/sub01_09.do,2023-06-17 22:38:14.940694
+민혜영,051-890-1553,창의관 625호,아동간호학,hymin@deu.ac.kr,https://nursing.deu.ac.kr/nursing/sub01_09.do,2023-06-17 22:38:14.940694
+이은주,051-890-1849,창의관 323호,성인간호학,ej.lee@deu.ac.kr,https://nursing.deu.ac.kr/nursing/sub01_09.do,2023-06-17 22:38:14.940694
+하이경,051-890-4252,창의관 624호,성인간호학,yikyung.ha@deu.ac.kr,https://nursing.deu.ac.kr/nursing/sub01_09.do,2023-06-17 22:38:14.940694
+양윤이,051-890-4253,창의관 602호,기초간호과학,yangyunyi@deu.ac.kr,https://nursing.deu.ac.kr/nursing/sub01_09.do,2023-06-17 22:38:14.940694
+서유진,051-890-4219,창의관 611호,정신간호학/노인간호학,yugibabe@deu.ac.kr,https://nursing.deu.ac.kr/nursing/sub01_09.do,2023-06-17 22:38:14.940694
+이유미,051-890-1560,창의관 723호,성인간호학/노인간호학,yym7493@deu.ac.kr,https://nursing.deu.ac.kr/nursing/sub01_09.do,2023-06-17 22:38:14.940694
+이혜진,051-890-4251,창의관 607호,기본간호학,hyejin.lee@deu.ac.kr,https://nursing.deu.ac.kr/nursing/sub01_09.do,2023-06-17 22:38:14.940694
+윤지향,051-890-4258,창의관 606호,성인간호학/모성간호학,jhunicorn@deu.ac.kr,https://nursing.deu.ac.kr/nursing/sub01_09.do,2023-06-17 22:38:14.940694
+박애영,051-890-4257,창의관 420-1호,교육심리 및 상담심리,dasrum2000@deu.ac.kr,https://nursing.deu.ac.kr/nursing/sub01_09.do,2023-06-17 22:38:14.940694
+전점이,연락처 -,-,성인간호학,jyjun@deu.ac.kr,https://nursing.deu.ac.kr/nursing/sub01_09.do,2023-06-17 22:38:14.940694
+조명옥,연락처 -,-,성인간호학,mocho@deu.ac.kr,https://nursing.deu.ac.kr/nursing/sub01_09.do,2023-06-17 22:38:14.940694
+손경희,연락처 -,-,정신간호학,khshon@deu.ac.kr,https://nursing.deu.ac.kr/nursing/sub01_09.do,2023-06-17 22:38:14.940694
+이갑녀,연락처 -,(본직기관) 동의의료원,,lgn386@deu.ac.kr,https://nursing.deu.ac.kr/nursing/sub01_09.do,2023-06-17 22:38:14.940694
+김은미,연락처 -,(본직기관) 동의의료원,,64755@deu.ac.kr,https://nursing.deu.ac.kr/nursing/sub01_09.do,2023-06-17 22:38:14.940694
+박봉희,연락처 -,(본직기관) 봉생힐링병원,,sens6001@deu.ac.kr,https://nursing.deu.ac.kr/nursing/sub01_09.do,2023-06-17 22:38:14.940694
+신옥선,연락처 -,(본직기관) 삼육부산병원,,66802@deu.ac.kr,https://nursing.deu.ac.kr/nursing/sub01_09.do,2023-06-17 22:38:14.940694
+김미환,연락처 -,(본직기관) 동의의료원,,unis2000@deu.ac.kr,https://nursing.deu.ac.kr/nursing/sub01_09.do,2023-06-17 22:38:14.940694
+김은정,연락처 -,(본직기관) 부산대학교병원,,15468@deu.ac.kr,https://nursing.deu.ac.kr/nursing/sub01_09.do,2023-06-17 22:38:14.940694
+정경태,051-890-2681,의료보건관 501호,"미생물학, 분자생물학",kchung@deu.ac.kr,https://1cls.deu.ac.kr/cls/sub02.do,2023-06-17 22:38:14.940694
+염종화,051-890-2682,의료보건관 502호,"임상미생물학, 항균제내성학",auxotype@deu.ac.kr,https://1cls.deu.ac.kr/cls/sub02.do,2023-06-17 22:38:14.940694
+현경예 (학과장),051-890-2683,의료보건관 503호,"임상혈액학, 임상생리학",kyhyun@deu.ac.kr,https://1cls.deu.ac.kr/cls/sub02.do,2023-06-17 22:38:14.940694
+임 용,051-890-2684,의료보건관 504호,생명약학,yonglim@deu.ac.kr,https://1cls.deu.ac.kr/cls/sub02.do,2023-06-17 22:38:14.940694
+박충무,051-890-2685,의료보건관 505호,식의약생명공학,cmpark@deu.ac.kr,https://1cls.deu.ac.kr/cls/sub02.do,2023-06-17 22:38:14.940694
+김혜진 (학과장),051-890-4237,동의대학교 의료보건관 905호,치위생학,khj1126@deu.ac.kr,http://dental.deu.ac.kr/dental/sub02.do,2023-06-17 22:38:14.940694
+이민경,051-890-4238,동의대학교 의료보건관 901호,치의학(구강생물학),lmk849@deu.ac.kr,http://dental.deu.ac.kr/dental/sub02.do,2023-06-17 22:38:14.940694
+이정화,051-890-4239,동의대학교 의료보건관 902호,치위생학,yamako93@deu.ac.kr,http://dental.deu.ac.kr/dental/sub02.do,2023-06-17 22:38:14.940694
+윤현서,051-890-2688,동의대학교 의료보건관 906호,치위생학,yoonhs@deu.ac.kr,http://dental.deu.ac.kr/dental/sub02.do,2023-06-17 22:38:14.940694
+김경민,051-890-4240,동의대학교 의료보건관 904호,치위생학,kimkm0607@deu.ac.kr,http://dental.deu.ac.kr/dental/sub02.do,2023-06-17 22:38:14.940694
+임인철,051-890-2678,동의대학교 의료보건관 808호,"영상학(컴퓨터단층촬영학,  자기공명영상학 등)",icim@deu.ac.kr,https://omc.deu.ac.kr/radiology/sub02.do,2023-06-17 22:38:14.940694
+이효영,051-890-2679,동의대학교 의료보건관 806호,"핵의학(인체생리학,  방사화학 등)",lhy250@deu.ac.kr,https://omc.deu.ac.kr/radiology/sub02.do,2023-06-17 22:38:14.940694
+안현,051-890-4234,동의대학교 의료보건관 809호,"영상학(초음파학, 영상진단학 등)",sonoah@deu.ac.kr,https://omc.deu.ac.kr/radiology/sub02.do,2023-06-17 22:38:14.940694
+이동연,051-890-2677,동의대학교 의료보건관 807호,"방사선치료학( 방사선생물학, 방사선물리학 등)",gymnist@deu.ac.kr,https://omc.deu.ac.kr/radiology/sub02.do,2023-06-17 22:38:14.940694
+김창태,051-890-4212,의료보건관 701호,의료경영학,kimct@deu.ac.kr,https://hcm1.deu.ac.kr/hcm/sub02.do,2023-06-17 22:38:14.940694
+이정원,051-890-4213,의료보건관 405호,"한의학, 경영학",leejw@deu.ac.kr,https://hcm1.deu.ac.kr/hcm/sub02.do,2023-06-17 22:38:14.940694
+박지경,051-890-4214,의료보건관 403호,보건학,jkpark@deu.ac.kr,https://hcm1.deu.ac.kr/hcm/sub02.do,2023-06-17 22:38:14.940694
+박일수,051-890-4215,의료보건관 404호,"보건학, 보건의료정보학, 보건통계학",ispark@deu.ac.kr,https://hcm1.deu.ac.kr/hcm/sub02.do,2023-06-17 22:38:14.940694
+이철선,051-890-4207,의료보건관 406호,"간호학, 보건학",66752@deu.ac.kr,https://hcm1.deu.ac.kr/hcm/sub02.do,2023-06-17 22:38:14.940694
+정상환,051-890-4206,의료보건관 401호,"보건의료정보학, 의료경영학",ssangsso@gmail.com,https://hcm1.deu.ac.kr/hcm/sub02.do,2023-06-17 22:38:14.940694
+김성미,051-890-4206,의료보건관 401호,"의사소통, 비즈니스 협상스킬, 글로벌비즈니스 에티켓, 이미지메이킹",ksmark3@deu.ac.kr,https://hcm1.deu.ac.kr/hcm/sub02.do,2023-06-17 22:38:14.940694
+김이순,051-890-4206,의료보건관 401호,지역사회간호학,mys@deu.ac.kr,https://hcm1.deu.ac.kr/hcm/sub02.do,2023-06-17 22:38:14.940694
+김병조,051-890-4221,의료보건관 409호,물리치료학(신경물리치료학),pt123@deu.ac.kr,http://pt.deu.ac.kr/pt/sub02.do,2023-06-17 22:38:14.940694
+이수경,051-890-4223,의료보건관 411호,물리치료학(운동치료학),ptlsk@deu.ac.kr,http://pt.deu.ac.kr/pt/sub02.do,2023-06-17 22:38:14.940694
+권해연,051-890-4224,의료보건관 412호,물리치료학(아동물리치료학),sunlotus75@deu.ac.kr,http://pt.deu.ac.kr/pt/sub02.do,2023-06-17 22:38:14.940694
+정주현,051-890-4225,의료보건관 703호,물리치료학(심장호흡물리치료학),ptjjh610@deu.ac.kr,http://pt.deu.ac.kr/pt/sub02.do,2023-06-17 22:38:14.940694
+김준석,051-890-4226,의료보건관 703호,물리치료학(정형계물리치료),physiolab@deu.ac.kr,http://pt.deu.ac.kr/pt/sub02.do,2023-06-17 22:38:14.940694
+윤경자,051-890-1584,생활과학관 809호,가족학,gjyoon@deu.ac.kr,http://childfamily.deu.ac.kr/childfamily/sub02.do,2023-06-17 22:38:14.940694
+강혜경,051-890-1585,생활과학관 709호,소비자학 및 가계경제학,hkkang@deu.ac.kr,http://childfamily.deu.ac.kr/childfamily/sub02.do,2023-06-17 22:38:14.940694
+구은미,051-890-1586,생활과학관 704호,보육학,keunmi@deu.ac.kr,http://childfamily.deu.ac.kr/childfamily/sub02.do,2023-06-17 22:38:14.940694
+손은주,051-890-1583,생활과학관 506호,보육학,ejson@deu.ac.kr,http://childfamily.deu.ac.kr/childfamily/sub02.do,2023-06-17 22:38:14.940694
+홍성희,051-890-1587,생활과학관 703호,보육학,happyhsh@deu.ac.kr,http://childfamily.deu.ac.kr/childfamily/sub02.do,2023-06-17 22:38:14.940694
+윤군애,051-890-1592,생활과학대학 806호,영양화학,gayoon@deu.ac.kr,https://fn.deu.ac.kr/food/sub02.do,2023-06-17 22:38:14.940694
+임화재,051-890-1593,생활과학관 705호,응용영양,hjlim@deu.ac.kr,https://fn.deu.ac.kr/food/sub02.do,2023-06-17 22:38:14.940694
+황혜진,051-890-1594,생활과학관 523호,영양생리,hhj2001@deu.ac.kr,https://fn.deu.ac.kr/food/sub02.do,2023-06-17 22:38:14.940694
+현숙경,051-890-1595,생활과학관 706호,식품학,skhyun@deu.ac.kr,https://fn.deu.ac.kr/food/sub02.do,2023-06-17 22:38:14.940694
+이지연,051-890-1596,생활과학관 707호,식품미생물학,jylee@deu.ac.kr,https://fn.deu.ac.kr/food/sub02.do,2023-06-17 22:38:14.940694
+장혜림,051-890-1597,생활과학관 708호,식품화학,forest2852@deu.ac.kr,https://fn.deu.ac.kr/food/sub02.do,2023-06-17 22:38:14.940694
+최성희,051-890-1590,-,식품화학,-,https://fn.deu.ac.kr/food/sub02.do,2023-06-17 22:38:14.940694
+박동일,051-850-8650,-,폐계내과학,dipark@deu.ac.kr,https://omc.deu.ac.kr/omc/sub02.do,2023-06-17 22:38:14.940694
+송춘호,연락처 -,-,경락경혈학,chsong@deu.ac.kr,https://omc.deu.ac.kr/omc/sub02.do,2023-06-17 22:38:14.940694
+이용태,051-890-3311,한의학관 207호,생리학,ytlee@deu.ac.kr,https://omc.deu.ac.kr/omc/sub02.do,2023-06-17 22:38:14.940694
+이인선,051-890-3330,한의학관 405호,부인과학,inslee@deu.ac.kr,https://omc.deu.ac.kr/omc/sub02.do,2023-06-17 22:38:14.940694
+고우신,051-850-8657,한의학관 304호,안이비인후과학,wsko@deu.ac.kr,https://omc.deu.ac.kr/omc/sub02.do,2023-06-17 22:38:14.940694
+김경철,051-890-3344,간호학관 206호,진단학,kimkc@deu.ac.kr,https://omc.deu.ac.kr/omc/sub02.do,2023-06-17 22:38:14.940694
+김훈,051-890-3325,한의학관 310호,의사학,hkim@deu.ac.kr,https://omc.deu.ac.kr/omc/sub02.do,2023-06-17 22:38:14.940694
+김종원,051-850-8640,한의학관 404호,사상체질의학,jwonkim@deu.ac.kr,https://omc.deu.ac.kr/omc/sub02.do,2023-06-17 22:38:14.940694
+지규용,051-890-3323,한의학관 307호,병리학,cgyu@deu.ac.kr,https://omc.deu.ac.kr/omc/sub02.do,2023-06-17 22:38:14.940694
+홍상훈,051-850-8811,한의학관 308호,간계내과학,shhong@deu.ac.kr,https://omc.deu.ac.kr/omc/sub02.do,2023-06-17 22:38:14.940694
+김인락,051-890-3322,한의학관 306호,본초학,irkim@deu.ac.kr,https://omc.deu.ac.kr/omc/sub02.do,2023-06-17 22:38:14.940694
+황원덕,051-850-8680,-,신계내과학,wdhwang@deu.ac.kr,https://omc.deu.ac.kr/omc/sub02.do,2023-06-17 22:38:14.940694
+최영현,051-890-3319,한의학관 302호,세포유전생화학,choiyh@deu.ac.kr,https://omc.deu.ac.kr/omc/sub02.do,2023-06-17 22:38:14.940694
+신순식,051-890-3345,간호학관 207호,방제학,ssshin@deu.ac.kr,https://omc.deu.ac.kr/omc/sub02.do,2023-06-17 22:38:14.940694
+윤현민,051-850-7415,한의학관 311호,침구학,-,https://omc.deu.ac.kr/omc/sub02.do,2023-06-17 22:38:14.940694
+김원일,051-890-3328,한의학관 403호,비계내과학,omdstar@deu.ac.kr,https://omc.deu.ac.kr/omc/sub02.do,2023-06-17 22:38:14.940694
+김철홍,051-850-7439,간호학관 103호,침구학,kmdkch@deu.ac.kr,https://omc.deu.ac.kr/omc/sub02.do,2023-06-17 22:38:14.940694
+윤화정,051-850-8852,간호학관 409-1호,안이비인후과학,yhj1226@deu.ac.kr,https://omc.deu.ac.kr/omc/sub02.do,2023-06-17 22:38:14.940694
+강경화,051-890-3309,한의학관 205호,생리학,ghkang@deu.ac.kr,https://omc.deu.ac.kr/omc/sub02.do,2023-06-17 22:38:14.940694
+유선애,051-850-8975,간호학관 209호,소아과학,kumgye@deu.ac.kr,https://omc.deu.ac.kr/omc/sub02.do,2023-06-17 22:38:14.940694
+이해웅,051-890-3346,간호학관 208호,예방의학,jameslee@deu.ac.kr,https://omc.deu.ac.kr/omc/sub02.do,2023-06-17 22:38:14.940694
+김범회,051-890-3310,한의학관 206호,해부학,bume@deu.ac.kr,https://omc.deu.ac.kr/omc/sub02.do,2023-06-17 22:38:14.940694
+조성우,051-850-7430,간호학관 101호,한방재활의학,luxy@deu.ac.kr,https://omc.deu.ac.kr/omc/sub02.do,2023-06-17 22:38:14.940694
+박상은,051-850-8752,간호학관 204호,간계내과학,pse@deu.ac.kr,https://omc.deu.ac.kr/omc/sub02.do,2023-06-17 22:38:14.940694
+전수형,051-850-8904,간호학관 107-2호,사상체질의학,jsoohyung@deu.ac.kr,https://omc.deu.ac.kr/omc/sub02.do,2023-06-17 22:38:14.940694
+김경민,051-850-8622,간호학관 203호,심계내과학,kyoung@deu.ac.kr,https://omc.deu.ac.kr/omc/sub02.do,2023-06-17 22:38:14.940694
+이상협,051-890-3327,한의학관 402호,원전학,sanghyup@deu.ac.kr,https://omc.deu.ac.kr/omc/sub02.do,2023-06-17 22:38:14.940694
+홍수현,051-890-3334,한의학관 408-1호,생화학,hongsh@deu.ac.kr,https://omc.deu.ac.kr/omc/sub02.do,2023-06-17 22:38:14.940694
+박신형,051-890-3332,한의학관 407-1호,병리학,omdpark@deu.ac.kr,https://omc.deu.ac.kr/omc/sub02.do,2023-06-17 22:38:14.940694
+권찬영,051-850-8808,간호학관 211호,신경정신과학,beanalogue@deu.ac.kr,https://omc.deu.ac.kr/omc/sub02.do,2023-06-17 22:38:14.940694
+진명호,051-850-8630,간호학관 203호,심계내과학,jinmh@deu.ac.kr,https://omc.deu.ac.kr/omc/sub02.do,2023-06-17 22:38:14.940694
+김선경,051-890-3350,한의학관 406호,의학교육학,pietas@deu.ac.kr,https://omc.deu.ac.kr/omc/sub02.do,2023-06-17 22:38:14.940694
+원지윤,051-890-3320,한의학관 303호,경락경혈학,erigh@deu.ac.kr,https://omc.deu.ac.kr/omc/sub02.do,2023-06-17 22:38:14.940694
+손변우,051-850-8836,간호학관 102호,신계내과학,akdwls08@deu.ac.kr,https://omc.deu.ac.kr/omc/sub02.do,2023-06-17 22:38:14.940694
+최수지,051-850-8811,간호학관 102호,부인과학,cindy5333@deu.ac.kr,https://omc.deu.ac.kr/omc/sub02.do,2023-06-17 22:38:14.940694
+서성부,051-890-2591,공학관 209호,조선해양공학,sbsuh@deu.ac.kr,http://naoe.deu.ac.kr/naoe/sub02.do,2023-06-17 22:38:14.940694
+조용진,051-890-2593,공학관 211호,"특수선 설계, 최적설계",cyjdeu@deu.ac.kr,http://naoe.deu.ac.kr/naoe/sub02.do,2023-06-17 22:38:14.940694
+고대은,051-890-2594,공학관 210호,구조공학 및 구조설계,deko@deu.ac.kr,http://naoe.deu.ac.kr/naoe/sub02.do,2023-06-17 22:38:14.940694
+박일룡,051-890-2595,공학관 217호,유체공학,irpark@deu.ac.kr,http://naoe.deu.ac.kr/naoe/sub02.do,2023-06-17 22:38:14.940694
+이재용,051-890-2596,공학관 213호,해양시스템 동역학 및 제어,jlee@deu.ac.kr,http://naoe.deu.ac.kr/naoe/sub02.do,2023-06-17 22:38:14.940694
+구남국,051-890-2592,공학관 308호,"선박기본설계, 다물체계동역학, 인공지능",knk80@deu.ac.kr,http://naoe.deu.ac.kr/naoe/sub02.do,2023-06-17 22:38:14.940694
+신형철,051-890-1469,공학관 111호,친환경 선박 및 해양플랜트 설계,hc.shine@deu.ac.kr,http://naoe.deu.ac.kr/naoe/sub02.do,2023-06-17 22:38:14.940694
+최병윤 교수님,051-890-1706,정보공학관 802호,"컴퓨터구조, 정보보호, 임베디드 SoC(System on a Chip) 설계",bychoi@deu.ac.kr,http://computer.deu.ac.kr/computer/sub02.do,2023-06-17 22:38:14.940694
+장종욱 교수님,051-890-1709,정보공학관 804호,컴퓨터통신,jwjang@deu.ac.kr,http://computer.deu.ac.kr/computer/sub02.do,2023-06-17 22:38:14.940694
+장시웅 교수님(학과장),051-890-2354,정보공학관 803호,"IT융합, 영상처리",swjang@deu.ac.kr,http://computer.deu.ac.kr/computer/sub02.do,2023-06-17 22:38:14.940694
+장승주 교수님,051-890-1710,정보공학관 805호,운영체제,sjjang@deu.ac.kr,http://computer.deu.ac.kr/computer/sub02.do,2023-06-17 22:38:14.940694
+이강승 교수님,051-890-1711,정보공학관 806호,멀티미디어 신호처리,kslee@deu.ac.kr,http://computer.deu.ac.kr/computer/sub02.do,2023-06-17 22:38:14.940694
+이창열 교수님,051-890-1726,정보공학관 807호,빅데이터,lcy@deu.ac.kr,http://computer.deu.ac.kr/computer/sub02.do,2023-06-17 22:38:14.940694
+김진덕 교수님,051-890-1745,정보공학관 823호,데이터베이스,jdk@deu.ac.kr,http://computer.deu.ac.kr/computer/sub02.do,2023-06-17 22:38:14.940694
+이문노 교수님,051-890-1713,정보공학관 822호,"시스템 설계, 제어",mnlee@deu.ac.kr,http://computer.deu.ac.kr/computer/sub02.do,2023-06-17 22:38:14.940694
+장성진 교수님,051-890-1685,산학협력관 502호,"IT융합, 컴퓨터통신",jsj@deu.ac.kr,http://computer.deu.ac.kr/computer/sub02.do,2023-06-17 22:38:14.940694
+박태억 교수님,051-890-2856,창의관 420-2호,"전자상거래, 스마트 비즈니스",taeyok@deu.ac.kr,http://computer.deu.ac.kr/computer/sub02.do,2023-06-17 22:38:14.940694
+임환섭 교수님,051-890-2355,창의관 423호,"인공지능, 사물인터넷, 무인이동체",hslim@deu.ac.kr,http://computer.deu.ac.kr/computer/sub02.do,2023-06-17 22:38:14.940694
+이종극 교수님(명예교수),연락처 -,-,"병렬처리시스템, 분산처리",jklee@deu.ac.kr,http://computer.deu.ac.kr/computer/sub02.do,2023-06-17 22:38:14.940694
+김진일 교수님(명예교수),051-890-1705,정보공학관 801호,인공지능,jikim@deu.ac.kr,http://computer.deu.ac.kr/computer/sub02.do,2023-06-17 22:38:14.940694
+박선혜,051-890-1321,-,피아노,shpark@deu.ac.kr,http://music.deu.ac.kr/music/sub02.do,2023-06-17 22:38:14.940694
+이동섬,051-890-1326,음악관 303호,피아노,leeds@deu.ac.kr,http://music.deu.ac.kr/music/sub02.do,2023-06-17 22:38:14.940694
+김성숙,051-890-1327,음악관 209호,피아노,sskkim@deu.ac.kr,http://music.deu.ac.kr/music/sub02.do,2023-06-17 22:38:14.940694
+김소형,051-890-1298,음악관 210,피아노,shkim915@deu.ac.kr,http://music.deu.ac.kr/music/sub02.do,2023-06-17 22:38:14.940694
+최훈녀,051-890-1329,음악관 207호,성악,pamina@deu.ac.kr,http://music.deu.ac.kr/music/sub02.do,2023-06-17 22:38:14.940694
+백재진,051-890-1323,음악관 214호,바이올린,jjbaek@deu.ac.kr,http://music.deu.ac.kr/music/sub02.do,2023-06-17 22:38:14.940694
+하기종,051-890-1328,음악관 302호,작곡,kjha@deu.ac.kr,http://music.deu.ac.kr/music/sub02.do,2023-06-17 22:38:14.940694
+윤상운,051-890-1328,음악관 213호,지휘,ysu5410@deu.ac.kr,http://music.deu.ac.kr/music/sub02.do,2023-06-17 22:38:14.940694
+이기녕,051-890-1324,음악관 215호,작곡,knlee@deu.ac.kr,http://music.deu.ac.kr/music/sub02.do,2023-06-17 22:38:14.940694
+김화정,051-890-1320,음악관 212호,성악,63456@deu.ac.kr,http://music.deu.ac.kr/music/sub02.do,2023-06-17 22:38:14.940694
+양재범,051-890-1340,생활과학관 325호,시각디자인,jbyang@deu.ac.kr,https://designart.deu.ac.kr/design/sub02.do,2023-06-17 22:38:14.940694
+오용균,051-890-1345,생활과학관 326호,시각디자인,ykoh@deu.ac.kr,https://designart.deu.ac.kr/design/sub02.do,2023-06-17 22:38:14.940694
+김영삼,051-890-2863,생활과학관 320호,시각디자인,11227@deu.ac.kr,https://designart.deu.ac.kr/design/sub02.do,2023-06-17 22:38:14.940694
+강재철,051-890-1347,생활과학관 324호,산업디자인,kang@deu.ac.kr,https://designart.deu.ac.kr/design/sub02.do,2023-06-17 22:38:14.940694
+김종엽,051-890-1399,생활과학관 408호,산업디자인,kimjy77@deu.ac.kr,https://designart.deu.ac.kr/design/sub02.do,2023-06-17 22:38:14.940694
+김민우,051-890-1348,생활과학관 408호,산업디자인,kim1980@deu.ac.kr,https://designart.deu.ac.kr/design/sub02.do,2023-06-17 22:38:14.940694
+이성원,051-890-1349,생활과학관 322호,공예디자인,ascada@deu.ac.kr,https://designart.deu.ac.kr/design/sub02.do,2023-06-17 22:38:14.940694
+천은정,051-890-1343,생활과학관 321호,공예디자인,ejchun@deu.ac.kr,https://designart.deu.ac.kr/design/sub02.do,2023-06-17 22:38:14.940694
+최정윤,051-890-1398,생활과학관 312호,공예디자인,sanha@deu.ac.kr,https://designart.deu.ac.kr/design/sub02.do,2023-06-17 22:38:14.940694
+김미선,051-890-1331,생활과학관 321호,공예디자인,deu.3d_kim@deu.ac.kr,https://designart.deu.ac.kr/design/sub02.do,2023-06-17 22:38:14.940694
+윤자정,051-890-1338,생활과학관 603호,서양화,jjyoon@deu.ac.kr,https://designart.deu.ac.kr/design/sub02.do,2023-06-17 22:38:14.940694
+김성철,051-890-1333,생활과학관 608호,서양화,sckim75@deu.ac.kr,https://designart.deu.ac.kr/design/sub02.do,2023-06-17 22:38:14.940694
+최광규,051-890-1336,생활과학관 606호,한국화,kgchoi@deu.ac.kr,https://designart.deu.ac.kr/design/sub02.do,2023-06-17 22:38:14.940694
+김형률,051-890-1339,생활과학관 607호,한국화,kimhr@deu.ac.kr,https://designart.deu.ac.kr/design/sub02.do,2023-06-17 22:38:14.940694
+강태훈,051-890-1334,생활과학관 608호,환경조형,63369@deu.ac.kr,https://designart.deu.ac.kr/design/sub02.do,2023-06-17 22:38:14.940694
+정현주,051-890-1604,생활과학관 810호,패션디자인(마케팅),hjjung@deu.ac.kr,http://fashion.deu.ac.kr/fashion/sub02.do,2023-06-17 22:38:14.940694
+함연자,051-890-1605,생활과학관 804호,패션디자인,yjham@deu.ac.kr,http://fashion.deu.ac.kr/fashion/sub02.do,2023-06-17 22:38:14.940694
+김혜은,051-890-1602,생활과학관 805호,패션디자인(디지털),hekim@deu.ac.kr,http://fashion.deu.ac.kr/fashion/sub02.do,2023-06-17 22:38:14.940694
+김인화,051-890-1603,생활과학관 803호,의복구성학,inhwakim@deu.ac.kr,http://fashion.deu.ac.kr/fashion/sub02.do,2023-06-17 22:38:14.940694
+최무석,051-890-1601,생활과학관 605호,패션디자인(패션창업&일러스트레이션),65327@deu.ac.kr,http://fashion.deu.ac.kr/fashion/sub02.do,2023-06-17 22:38:14.940694
+진영완,051-890-2511,동의대학교 예술디자인체육대학 상경관 303호,운동역학전공 (Ph.D. Yonsei University),ywjin@deu.ac.kr,http://deptpe.deu.ac.kr/deptpe/sub02.do,2023-06-17 22:38:14.940694
+유병인,051-890-1545,동의대학교 예술디자인체육대학 상경관 203호,체육측정평가 전공(Ph.D. Yonsei University),yoobi@deu.ac.kr,http://deptpe.deu.ac.kr/deptpe/sub02.do,2023-06-17 22:38:14.940694
+곽이섭,051-890-1546,동의대학교 예술디자인체육대학 상경관 301호,운동생리학전공(Ph.D. Yonsei University),ysk2003@deu.ac.kr,http://deptpe.deu.ac.kr/deptpe/sub02.do,2023-06-17 22:38:14.940694
+윤병곤,051-890-2512,동의대학교 예술디자인체육대학 상경관 306호,운동생리학·처방전공(Ph.D. University of New Mexico ),lobo06@deu.ac.kr,http://deptpe.deu.ac.kr/deptpe/sub02.do,2023-06-17 22:38:14.940694
+김희은,051-890-2513,동의대학교 예술디자인체육대학 상경관 615호,현대무용스포츠사회학 전공(Ph.D.Kyungnam University),dancekhe@deu.ac.kr,http://deptpe.deu.ac.kr/deptpe/sub02.do,2023-06-17 22:38:14.940694
+신정택,051-890-2504,동의대학교 예술디자인체육대학 상경관 204호,스포츠심리학 전공 (Ph.D. Yonsei University),sjt2001@deu.ac.kr,http://deptpe.deu.ac.kr/deptpe/sub02.do,2023-06-17 22:38:14.940694
+박문수,051-890-1547,동의대학교 예술디자인체육대학 상경관 304호,스포츠시설경영전공(Ed.D. Korea National University of Education),sport8688@deu.ac.kr,http://deptpe.deu.ac.kr/deptpe/sub02.do,2023-06-17 22:38:14.940694
+박철홍,051-890-1548,동의대학교 예술디자인체육대학 상경관 202호,스포츠교육학 전공(Ph.D. Yonsei University),95sf015@deu.ac.kr,http://deptpe.deu.ac.kr/deptpe/sub02.do,2023-06-17 22:38:14.940694
+윤지영,051-890-1212,제2인문관 202호,,windnamu@deu.ac.kr,https://www.deu.ac.kr/www/dept/member/3/2,2023-06-17 22:38:14.940694
+이철우,051-890-2174,제2인문관 307호,,woo7711@deu.ac.kr,https://www.deu.ac.kr/www/dept/member/3/2,2023-06-17 22:38:14.940694
+하상일,051-890-2175,제2인문관 215호,,newpoem21@deu.ac.kr,https://www.deu.ac.kr/www/dept/member/3/2,2023-06-17 22:38:14.940694
+전동균,051-890-2177,제2인문관 220호,,dong@deu.ac.kr,https://www.deu.ac.kr/www/dept/member/3/2,2023-06-17 22:38:14.940694
+정준식,051-890-1211,제2인문관 214호,,jjs@deu.ac.kr,https://www.deu.ac.kr/www/dept/member/3/2,2023-06-17 22:38:14.940694
+이호규,051-890-1221,제2인문관 201호,,lhg@deu.ac.kr,https://www.deu.ac.kr/www/dept/member/3/2,2023-06-17 22:38:14.940694
+이송은,051-890-1230,제2인문관 304호,,selee@deu.ac.kr,https://www.deu.ac.kr/www/dept/member/6/2,2023-06-17 22:38:14.940694
+오인용,051-890-1228,제2인문관 323호,,,https://www.deu.ac.kr/www/dept/member/6/2,2023-06-17 22:38:14.940694
+임창건,051-890-1229,제2인문관 416호,,cgim@deu.ac.kr,https://www.deu.ac.kr/www/dept/member/6/2,2023-06-17 22:38:14.940694
+송경숙,051-890-1231,제2인문관 420호,,ksong@deu.ac.kr,https://www.deu.ac.kr/www/dept/member/6/2,2023-06-17 22:38:14.940694
+유지헌,051-890-1227,제2인문관 322호,,jihunyoo@deu.ac.kr,https://www.deu.ac.kr/www/dept/member/6/2,2023-06-17 22:38:14.940694
+브리트니크로슬이,051-890-1235,제2인문관 321호,,bcrossley@deu.ac.kr,https://www.deu.ac.kr/www/dept/member/6/2,2023-06-17 22:38:14.940694
+최상일,051-890-2207,국제관 501-2호,,csi@deu.ac.kr,https://www.deu.ac.kr/www/dept/member/20/2,2023-06-17 22:38:14.940694
+윤지석,051-890-1842,국제관 501-4호,,js025@deu.ac.kr,https://www.deu.ac.kr/www/dept/member/20/2,2023-06-17 22:38:14.940694
+오윤경,051-890-1843,국제관 808호,,oyk@deu.ac.kr,https://www.deu.ac.kr/www/dept/member/20/2,2023-06-17 22:38:14.940694
+정쾌호,051-890-1175,법정관 216호,,jkho1109@deu.ac.kr,https://www.deu.ac.kr/www/dept/member/20/2,2023-06-17 22:38:14.940694
+김민아,051-890-2434,국제관 808-1호,,mak@deu.ac.kr,https://www.deu.ac.kr/www/dept/member/20/2,2023-06-17 22:38:14.940694
+홍한국,051-890-1355,국제관 715호,,,https://www.deu.ac.kr/www/dept/member/23/2,2023-06-17 22:38:14.940694
+강병영,051-890-1455,국제관 716호,,bykang@deu.ac.kr,https://www.deu.ac.kr/www/dept/member/23/2,2023-06-17 22:38:14.940694
+김종원,051-890-1444,국제관 718호,,jokim@deu.ac.kr,https://www.deu.ac.kr/www/dept/member/23/2,2023-06-17 22:38:14.940694
+박철제,051-890-1443,국제관 717호,,,https://www.deu.ac.kr/www/dept/member/23/2,2023-06-17 22:38:14.940694
+김은정,051-890-2551,국제관 905호,,eunjung@deu.ac.kr,https://www.deu.ac.kr/www/dept/member/23/2,2023-06-17 22:38:14.940694
+조재균,051-890-1004,국제관 714호,,,https://www.deu.ac.kr/www/dept/member/23/2,2023-06-17 22:38:14.940694
+정석찬,051-890-2064,국제관 713호,,,https://www.deu.ac.kr/www/dept/member/23/2,2023-06-17 22:38:14.940694
+박기남,051-890-2066,국제관 615호,,knpark@deu.ac.kr,https://www.deu.ac.kr/www/dept/member/23/2,2023-06-17 22:38:14.940694
+김철민,051-890-2067,국제관 712호,,kcm@deu.ac.kr,https://www.deu.ac.kr/www/dept/member/23/2,2023-06-17 22:38:14.940694
+이종화,051-890-1354,국제관 809호,,jhlee6050@deu.ac.kr,https://www.deu.ac.kr/www/dept/member/23/2,2023-06-17 22:38:14.940694
+박신형,051-890-3332,한의학관 407-1호,,omdpark@deu.ac.kr,https://www.deu.ac.kr/www/dept/member/42/2,2023-06-17 22:38:14.940694
+이인선,051-890-3330,한의학관 405호,,inslee@deu.ac.kr,https://www.deu.ac.kr/www/dept/member/42/2,2023-06-17 22:38:14.940694
+이용태,051-890-3311,한의학관 207호,,ytlee@deu.ac.kr,https://www.deu.ac.kr/www/dept/member/42/2,2023-06-17 22:38:14.940694
+고우신,051-890-3321,한의학관 304호,,wsko@deu.ac.kr,https://www.deu.ac.kr/www/dept/member/42/2,2023-06-17 22:38:14.940694
+김경철,051-890-3344,간호학관 206호,,kimkc@deu.ac.kr,https://www.deu.ac.kr/www/dept/member/42/2,2023-06-17 22:38:14.940694
+김종원,051-890-8640,한의학관 404호,,jwonkim@deu.ac.kr,https://www.deu.ac.kr/www/dept/member/42/2,2023-06-17 22:38:14.940694
+김훈,051-890-3325,한의학관 310호,,hkim@deu.ac.kr,https://www.deu.ac.kr/www/dept/member/42/2,2023-06-17 22:38:14.940694
+지규용,051-890-3323,한의학관 307호,,cgyu@deu.ac.kr,https://www.deu.ac.kr/www/dept/member/42/2,2023-06-17 22:38:14.940694
+김인락,051-890-3322,한의학관 306호,,irkim@deu.ac.kr,https://www.deu.ac.kr/www/dept/member/42/2,2023-06-17 22:38:14.940694
+홍상훈,051-890-3324,한의학관 308호,,shhong@deu.ac.kr,https://www.deu.ac.kr/www/dept/member/42/2,2023-06-17 22:38:14.940694
+신순식,051-890-3345,간호학관 207호,,ssshin@deu.ac.kr,https://www.deu.ac.kr/www/dept/member/42/2,2023-06-17 22:38:14.940694
+최영현,051-890-3319,한의학관 302호,,choiyh@deu.ac.kr,https://www.deu.ac.kr/www/dept/member/42/2,2023-06-17 22:38:14.940694
+윤현민,051-890-3326,한의학관 311호,,yhmin@deu.ac.kr,https://www.deu.ac.kr/www/dept/member/42/2,2023-06-17 22:38:14.940694
+김원일,051-890-3328,한의학관 403호,,omdstar@deu.ac.kr,https://www.deu.ac.kr/www/dept/member/42/2,2023-06-17 22:38:14.940694
+김철홍,051-890-3340,간호학관 103호,,kmdkch@deu.ac.kr,https://www.deu.ac.kr/www/dept/member/42/2,2023-06-17 22:38:14.940694
+강경화,051-890-3309,한의학관 205호,,ghkang@deu.ac.kr,https://www.deu.ac.kr/www/dept/member/42/2,2023-06-17 22:38:14.940694
+윤화정,051-890-3336,한의학관 409-1호,,,https://www.deu.ac.kr/www/dept/member/42/2,2023-06-17 22:38:14.940694
+유선애,051-890-3347,간호학관 209호,,,https://www.deu.ac.kr/www/dept/member/42/2,2023-06-17 22:38:14.940694
+김범회,051-890-3310,한의학관 206호,,,https://www.deu.ac.kr/www/dept/member/42/2,2023-06-17 22:38:14.940694
+이해웅,051-890-3346,간호학관 208호,,,https://www.deu.ac.kr/www/dept/member/42/2,2023-06-17 22:38:14.940694
+조성우,051-890-3338,간호학관 101호,,luxy@deu.ac.kr,https://www.deu.ac.kr/www/dept/member/42/2,2023-06-17 22:38:14.940694
+박상은,051-890-3343,간호학관 204호,,,https://www.deu.ac.kr/www/dept/member/42/2,2023-06-17 22:38:14.940694
+전수형,051-890-8904,간호학관 210호,,jsoohyung@deu.ac.kr,https://www.deu.ac.kr/www/dept/member/42/2,2023-06-17 22:38:14.940694
+김경민,051-890-3335,한의학관 408-2호,,,https://www.deu.ac.kr/www/dept/member/42/2,2023-06-17 22:38:14.940694
+홍수현,051-890-3334,한의학관 408-1호,,hongsh@deu.ac.kr,https://www.deu.ac.kr/www/dept/member/42/2,2023-06-17 22:38:14.940694
+이상협,051-890-3327,한의학관 402호,,sanghyup@deu.ac.kr,https://www.deu.ac.kr/www/dept/member/42/2,2023-06-17 22:38:14.940694
+권찬영,051-850-8808,간호학관 211호,,beanalogue@deu.ac.kr,https://www.deu.ac.kr/www/dept/member/42/2,2023-06-17 22:38:14.940694
+진명호,051-850-8630,간호학관 203호,,jinmh@deu.ac.kr,https://www.deu.ac.kr/www/dept/member/42/2,2023-06-17 22:38:14.940694
+김선경,051-890-3350,한의학관 406호,,pietas@deu.ac.kr,https://www.deu.ac.kr/www/dept/member/42/2,2023-06-17 22:38:14.940694
+원지윤,051-890-3320,한의학관 303호,,erigh@deu.ac.kr,https://www.deu.ac.kr/www/dept/member/42/2,2023-06-17 22:38:14.940694
+손변우,051-890-3336,간호학관 102호,,akdwls08@deu.ac.kr,https://www.deu.ac.kr/www/dept/member/42/2,2023-06-17 22:38:14.940694
+최수지,051-850-8660," 간호학관 102-1호, 한의학관 303-1호",,cindy5333@deu.ac.kr,https://www.deu.ac.kr/www/dept/member/42/2,2023-06-17 22:38:14.940694
+차민철,051-890-2724,산학협력관 710호,,mincholcha@deu.ac.kr,https://www.deu.ac.kr/www/dept/member/58/2,2023-06-17 22:38:14.940694
+김이석,051-890-2721,산학협력관 707호,,kimiseok@deu.ac.kr,https://www.deu.ac.kr/www/dept/member/58/2,2023-06-17 22:38:14.940694
+허은희,051-890-2722,산학협력관 708호,,uneehuh@deu.ac.kr,https://www.deu.ac.kr/www/dept/member/58/2,2023-06-17 22:38:14.940694
+김병철,051-890-2723,산학협력관 709호,,bcyj@deu.ac.kr,https://www.deu.ac.kr/www/dept/member/58/2,2023-06-17 22:38:14.940694
+정성욱,051-890-2726,산학협력관 607-1호,,merroo@deu.ac.kr,https://www.deu.ac.kr/www/dept/member/58/2,2023-06-17 22:38:14.940694
+박세영,051-890-2725,산학협력관 609호,,hottacat@deu.ac.kr,https://www.deu.ac.kr/www/dept/member/58/2,2023-06-17 22:38:14.940694
+하기종,051-890-1328,음악관 302호,,,https://www.deu.ac.kr/www/dept/member/60/2,2023-06-17 22:38:14.940694
+백재진,051-890-1323,음악관 214호,,jjbaek@deu.ac.kr,https://www.deu.ac.kr/www/dept/member/60/2,2023-06-17 22:38:14.940694
+이동섬,051-890-1326,음악관 303호,,,https://www.deu.ac.kr/www/dept/member/60/2,2023-06-17 22:38:14.940694
+김성숙,051-890-1327,음악관 209호,,,https://www.deu.ac.kr/www/dept/member/60/2,2023-06-17 22:38:14.940694
+최훈녀,051-890-1329,음악관 207호,,pamina@deu.ac.kr,https://www.deu.ac.kr/www/dept/member/60/2,2023-06-17 22:38:14.940694
+김소형,051-890-1298,음악관 210호,,shkim915@deu.ac.kr,https://www.deu.ac.kr/www/dept/member/60/2,2023-06-17 22:38:14.940694
+윤상운,051-890-1319,음악관 213호,,ysu5410@deu.ac.kr,https://www.deu.ac.kr/www/dept/member/60/2,2023-06-17 22:38:14.940694
+이기녕,051-890-1324,음악관 215호,,knlee@deu.ac.kr,https://www.deu.ac.kr/www/dept/member/60/2,2023-06-17 22:38:14.940694
+김화정,051-890-1299,음악관 212호,,63456@deu.ac.kr,https://www.deu.ac.kr/www/dept/member/60/2,2023-06-17 22:38:14.940694
+이성원,051-890-1349,생활과학관 322호,,ascada@deu.ac.kr,https://www.deu.ac.kr/www/dept/member/61/2,2023-06-17 22:38:14.940694
+김형률,051-890-1339,생활과학관 607호,,,https://www.deu.ac.kr/www/dept/member/61/2,2023-06-17 22:38:14.940694
+오용균,051-890-1345,생활과학관 326호,,ykoh@deu.ac.kr,https://www.deu.ac.kr/www/dept/member/61/2,2023-06-17 22:38:14.940694
+양재범,051-890-1340,생활과학관 325호,,jbyang@deu.ac.kr,https://www.deu.ac.kr/www/dept/member/61/2,2023-06-17 22:38:14.940694
+강재철,051-890-1347,생활과학관 324호,,kang@deu.ac.kr,https://www.deu.ac.kr/www/dept/member/61/2,2023-06-17 22:38:14.940694
+최정윤,051-890-1398,생활과학관 312호,,sanha@deu.ac.kr,https://www.deu.ac.kr/www/dept/member/61/2,2023-06-17 22:38:14.940694
+강태훈,051-890-1334,생활과학관 608호,,63369@deu.ac.kr,https://www.deu.ac.kr/www/dept/member/61/2,2023-06-17 22:38:14.940694
+김성철,051-890-1333,생활과학관 608-1호,,sckim75@deu.ac.kr,https://www.deu.ac.kr/www/dept/member/61/2,2023-06-17 22:38:14.940694
+천은정,051-890-1343,생활과학관 321호,,ejchun@deu.ac.kr,https://www.deu.ac.kr/www/dept/member/61/2,2023-06-17 22:38:14.940694
+김종엽,051-890-1399,생활과학관 327-1호,,kimjy77@deu.ac.kr,https://www.deu.ac.kr/www/dept/member/61/2,2023-06-17 22:38:14.940694
+김영삼,051-890-2863,생활과학관 320호,,11227@deu.ac.kr,https://www.deu.ac.kr/www/dept/member/61/2,2023-06-17 22:38:14.940694
+김미선,051-890-1331,생활과학관 321-1호,,deu.3d_kim@deu.ac.kr,https://www.deu.ac.kr/www/dept/member/61/2,2023-06-17 22:38:14.940694
+김민우,051-890-1348,생활과학관 323호,,kim1980@deu.ac.kr,https://www.deu.ac.kr/www/dept/member/61/2,2023-06-17 22:38:14.940694
+함연자,051-890-1605,생활과학관 804호,,yjham@deu.ac.kr,https://www.deu.ac.kr/www/dept/member/62/2,2023-06-17 22:38:14.940694
+정현주,051-890-1604,생활과학관 810호,,hjjung@deu.ac.kr,https://www.deu.ac.kr/www/dept/member/62/2,2023-06-17 22:38:14.940694
+김혜은,051-890-1602,생활과학관 805호,,hekim@deu.ac.kr,https://www.deu.ac.kr/www/dept/member/62/2,2023-06-17 22:38:14.940694
+김인화,051-890-1603,생활과학관 803호,,inhwakim@deu.ac.kr,https://www.deu.ac.kr/www/dept/member/62/2,2023-06-17 22:38:14.940694
+최무석,051-890-1601,생활과학관 605-1호,,,https://www.deu.ac.kr/www/dept/member/62/2,2023-06-17 22:38:14.940694
+진영완,051-890-2511,상경관 303호,,,https://www.deu.ac.kr/www/dept/member/63/2,2023-06-17 22:38:14.940694
+유병인,051-890-1545,상경관 203호,,yoobi@deu.ac.kr,https://www.deu.ac.kr/www/dept/member/63/2,2023-06-17 22:38:14.940694
+곽이섭,051-890-1546,상경관 301호,,ysk2003@deu.ac.kr,https://www.deu.ac.kr/www/dept/member/63/2,2023-06-17 22:38:14.940694
+김희은,051-890-2513,상경관 615호,,dancekhe@deu.ac.kr,https://www.deu.ac.kr/www/dept/member/63/2,2023-06-17 22:38:14.940694
+박문수,051-890-1547,상경관 304호,,,https://www.deu.ac.kr/www/dept/member/63/2,2023-06-17 22:38:14.940694
+신정택,051-890-2504,상경관 204호,,sjt2001@deu.ac.kr,https://www.deu.ac.kr/www/dept/member/63/2,2023-06-17 22:38:14.940694
+윤병곤,051-890-2512,상경관 306호,,lobo06@deu.ac.kr,https://www.deu.ac.kr/www/dept/member/63/2,2023-06-17 22:38:14.940694
+박철홍,051-890-1548,상경관 202호,,95sf015@deu.ac.kr,https://www.deu.ac.kr/www/dept/member/63/2,2023-06-17 22:38:14.940694
+권오준,051-890-1725,정보공학관 903호,"인공지능, 컴퓨터 네트워크, 정보 보호",ojkwon@deu.ac.kr,https://csw.deu.ac.kr/se/sub02.do,2023-06-17 22:38:14.940694
+권순각,051-890-1727,정보공학관 904호,"멀티미디어 정보처리, 영상통신",skkwon@deu.ac.kr,https://csw.deu.ac.kr/se/sub02.do,2023-06-17 22:38:14.940694
+김성우,051-890-1728,정보공학관 905호,"임베디드시스템, 운영체제",libero@deu.ac.kr,https://csw.deu.ac.kr/se/sub02.do,2023-06-17 22:38:14.940694
+이중화,051-890-1729,정보공학관 906호,"데이터베이스, 자료구조, 웹 시스템",junghwa@deu.ac.kr,https://csw.deu.ac.kr/se/sub02.do,2023-06-17 22:38:14.940694
+이종민,051-890-1736,정보공학관 907호 (https://compnet.deu.ac.kr),"모바일 컴퓨팅, 병렬처리(GPU컴퓨팅), S/W공학, OOAD",jongmin@deu.ac.kr,https://csw.deu.ac.kr/se/sub02.do,2023-06-17 22:38:14.940694
+박유현,051-890-1737,정보공학관 901호,"인터넷 시스템, 클라우드 시스템",yhpark@deu.ac.kr,https://csw.deu.ac.kr/se/sub02.do,2023-06-17 22:38:14.940694
+임영호,051-890-1847,정보공학관 808호,"컴퓨터 응용, 컨텐츠 제작 기술",yhleem@deu.ac.kr,https://csw.deu.ac.kr/se/sub02.do,2023-06-17 22:38:14.940694
+장희숙,051-890-1815,정보공학관 701호,"소프트웨어공학, 시스템 분석 설계, 네트워크 프로토콜",jang1052@deu.ac.kr,https://csw.deu.ac.kr/se/sub02.do,2023-06-17 22:38:14.940694
+김태석(명예교수),연락처 -,-,"자연어처리, 프로그래밍 언어",tskim@deu.ac.kr,https://csw.deu.ac.kr/se/sub02.do,2023-06-17 22:38:14.940694
+장경식,051-890-1988,산학협력관 402호,컴퓨터비전,ksjang@deu.ac.kr,https://csw.deu.ac.kr/asw/sub02.do,2023-06-17 22:38:14.940694
+김형석,051-890-1989,산학협력관 403호,컴퓨터그래픽스,hskim@deu.ac.kr,https://csw.deu.ac.kr/asw/sub02.do,2023-06-17 22:38:14.940694
+우영운,051-890-1712,산학협력관 404호,인공지능,ywwoo@deu.ac.kr,https://csw.deu.ac.kr/asw/sub02.do,2023-06-17 22:38:14.940694
+이광의,051-890-1991,산학협력관 405호,알고리즘,kelee@deu.ac.kr,https://csw.deu.ac.kr/asw/sub02.do,2023-06-17 22:38:14.940694
+김현태,051-890-1992,산학협력관 406호,디지털지능정보처리,htaekim@deu.ac.kr,https://csw.deu.ac.kr/asw/sub02.do,2023-06-17 22:38:14.940694
+김남규,051-890-2713,산학협력관 407호,응용소프트웨어공학,ngkim@deu.ac.kr,https://csw.deu.ac.kr/asw/sub02.do,2023-06-17 22:38:14.940694
+이현섭,051-890-1914,산학협력관 504호,데이터베이스및빅데이터처리,lhskmj@deu.ac.kr,https://csw.deu.ac.kr/asw/sub02.do,2023-06-17 22:38:14.940694
+김삼문,051-890-2847,산학협력관 508호,경영정보학,sammoon@deu.ac.kr,https://csw.deu.ac.kr/asw/sub02.do,2023-06-17 22:38:14.940694
