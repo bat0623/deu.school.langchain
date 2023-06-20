@@ -28,8 +28,19 @@ templates = {
     "case1": """ChatGPT 모델을 다음 지침을 따르세요.
 1. 대답을 할 때는 부드러운 말투로 대답해야 합니다.
 2. 대답을 할 때는 안내하듯이 대답해야 합니다.
+3. 대답을 할 때는 반드시 출처를 반드시 알려줘야 합니다.
 ---
-'{input_text}'라는 질문에 대한 대답은 '{output_text}'입니다."""
+'{input_text}'라는 질문에 대한 대답은 '{output_text}'입니다.""",
+    "case2": """ChatGPT 모델을 다음 지침을 따르세요.
+1. 대답을 할 때는 부드러운 말투로 대답해야 합니다.
+2. 대답을 할 때는 안내하듯이 대답해야 합니다.
+3. 반드시 한국어로 대답해야합니다.
+4. 당신은 동의대학교에 대한 정보만 대답해야 합니다.
+5. '하지만'과 같은 대답을 해서는 안됩니다.
+6. 모든 대답에서는 출처를 남겨줘야합니다.
+7. 출처를 반드시 알려줘야 합니다.
+---
+'{input_text}'라는 질문에 대한 대답은 '{output_text}'입니다.""",
 }
 
 
@@ -46,10 +57,8 @@ app = FastAPI()
 
 
 def csv_parser(query, filePath):
-    llm = OpenAI(temperature=0, model_name="text-davinci-001")
-    # llm = OpenAI(temperature=0, model_name="text-davinci-003")
+    llm = OpenAI(temperature=0, model_name="text-davinci-003")
     agent = create_csv_agent(llm, filePath, verbose=True, kwargs={"max_iterations": 5})
-    # agent = create_csv_agent(llm, filePath, verbose=False, kwargs={"max_iterations": 5})
     res = agent.run(query)
     return res
 
@@ -73,7 +82,7 @@ async def submit_chat(
 ):
     res = load_files(query)
     if len(res) > 0:
-        pattern = r"파일명: (\S+\.csv)"
+        pattern = r"filename: (\S+\.csv)"
         match = re.search(pattern, res[0].page_content.split("\n")[0])
         fileName = match.group(1)
         res = csv_parser(query=query, filePath=(ASSETS_DIR + "/" + fileName))
@@ -81,11 +90,11 @@ async def submit_chat(
             input_variables=["input_text", "output_text"],
             template=templates["case1"],
         )
+        print(res)
         texts = prompt.format_prompt(input_text=query, output_text=res)
-        model = OpenAI(model_name="text-davinci-001", temperature=0.0)
-        # model = OpenAI(model_name="text-davinci-003", temperature=0.0)
+        model = OpenAI(model_name="text-davinci-003", temperature=0.0)
         result = model(texts.to_string())
-        return {"state": "OK", "output_text": result}
+        return {"state": "OK", "output_text": result + "\n출처는 다읍과 같습니다.\n" + res}
     else:
         return {
             "state": "ERROR",
