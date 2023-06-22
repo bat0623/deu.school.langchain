@@ -94,7 +94,7 @@ async def submit_chat(
         texts = prompt.format_prompt(input_text=query, output_text=res)
         model = OpenAI(model_name="text-davinci-003", temperature=0.0)
         result = model(texts.to_string())
-        return {"state": "OK", "output_text": result + "\n출처는 다읍과 같습니다.\n" + res}
+        return {"state": "OK", "output_text": result + "\n출처는 다음과 같습니다.\n" + res}
     else:
         return {
             "state": "ERROR",
