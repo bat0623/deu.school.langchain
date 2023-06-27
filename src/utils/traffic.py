@@ -6,6 +6,7 @@ url = "https://www.deu.ac.kr/www/content/13"
 
 bus_data = []
 course_data = []
+ref_url_list = []
 response = requests.get(url)
 
 if response.status_code == 200:
@@ -36,12 +37,20 @@ if response.status_code == 200:
     course_data.append(course6.get_text())
     course_data.append(course6_1.get_text())
     course_data.append(course9.get_text())
+    ref_url_list.append(url)
 
 
 else:
     print(response.status_code)
 
-Data = {"차량번호번": bus_data, "배차": time.get_text(), "간격": interval.get_text(), "경로": course_data}
+Data = {
+    "버스번호": bus_data,
+    "배차시작시간": time.get_text().split(" ~ ")[0],
+    "배차종료시간": time.get_text().split(" ~ ")[1],
+    "간격": interval.get_text(),
+    "경로": course_data,
+    "출처": ref_url_list,
+}
 df = pd.DataFrame(Data)
 
 df.to_csv("traffic.csv", index=False)

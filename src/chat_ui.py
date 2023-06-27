@@ -3,7 +3,8 @@ import requests
 
 
 def langchain_chat(query: str):
-    url = "http://localhost:8081/chat"
+    # url = "https://gpt.bokji24.com/chat"
+    url = "http://127.0.0.1:8081/chat"
     payload = {"query": query}
     response = requests.post(url, json=payload)
     if response.status_code == 200:
@@ -38,7 +39,7 @@ def chat_ui():
     with chat_container:
         for i, item in enumerate(chat_history):
             sender, message = item
-            st.text_input("DEU GPT 챗봇", message, key=i)
+            st.text_area("DEU GPT 챗봇", message, key=i)
         is_loading = False
 
 
